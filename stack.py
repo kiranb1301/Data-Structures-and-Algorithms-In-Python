@@ -8,7 +8,7 @@ class Stack: #creates the class stack which is work as the real world object
     def push(self, x):    #Method 1 describes the push operation (Takes 2 arguments i.e. x and self self is parameter and x is actual value which will be inserted in stack)
         
         if self.top >= self.size - 1:  #checks the stack is full or not if full it doesnt insert the any value in stack 
-            print("Stack Overflow")    #
+            print("Stack Overflow")    
             return False
         else:
             self.top += 1
