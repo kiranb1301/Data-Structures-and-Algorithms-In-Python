@@ -28,7 +28,7 @@ class LinkedList():
         new_node = Node(val)
         if self.head == None:
             return
-        else:
+        else:           
             current = self.head 
             while current != None:
                 if current.value == index_val:
@@ -240,3 +240,5 @@ main()
         
 
 
+
+print("hello world")
